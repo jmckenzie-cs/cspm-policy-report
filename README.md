@@ -21,7 +21,7 @@ export FALCON_CLIENT_ID="your_client_id_here"
 export FALCON_CLIENT_SECRET="your_client_secret_here"
 
 # Download and run the script
-curl -s https://raw.githubusercontent.com/kuhnskc/cspm-policy-report/main/get-cspm-rules.sh | bash
+curl -s https://raw.githubusercontent.com/jmckenzie-cs/cspm-policy-report/main/get-cspm-rules.sh | bash
 ```
 
 ## Prerequisites
@@ -35,19 +35,19 @@ curl -s https://raw.githubusercontent.com/kuhnskc/cspm-policy-report/main/get-cs
 
 ### Method 1: Direct execution (recommended for one-time use)
 ```bash
-curl -s https://raw.githubusercontent.com/kuhnskc/cspm-policy-report/main/get-cspm-rules.sh | bash
+curl -s https://raw.githubusercontent.com/jmckenzie-cs/cspm-policy-report/main/get-cspm-rules.sh | bash
 ```
 
 ### Method 2: Download and run
 ```bash
-curl -O https://raw.githubusercontent.com/kuhnskc/cspm-policy-report/main/get-cspm-rules.sh
+curl -O https://raw.githubusercontent.com/jmckenzie-cs/cspm-policy-report/main/get-cspm-rules.sh
 chmod +x get-cspm-rules.sh
 ./get-cspm-rules.sh
 ```
 
 ### Method 3: Clone repository
 ```bash
-git clone https://github.com/kuhnskc/cspm-policy-report.git
+git clone https://github.com/jmckenzie-cs/cspm-policy-report.git
 cd cspm-policy-report
 chmod +x get-cspm-rules.sh
 ./get-cspm-rules.sh
